@@ -1,0 +1,509 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #cateringin-logo{
+    width: 7.75rem;
+    height: 4rem;
+  }
+  
+  .header{
+    padding: 0.75rem 0rem 0.75rem 0.75rem;
+  }
+  
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #login-form-title{
+    color: #5CAC0E;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0rem;
+    height: 2.5rem;
+  }
+  
+  .login-form-box{
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 17rem;
+    background: #ddffcb;
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  #login-form-box-username{
+    margin: 1.5rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #login-form-box-password{
+    margin: 1rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #login-form-box-username-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem;
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  #login-form-box-password-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem;
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+
+  .login-form-box-admin-login-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .login-form-box-admin-login-button-wrapper-admin-login-button{
+    margin: 1.5rem 0rem 0rem 0rem;
+    width: 17.5rem;
+    height: 2.5rem;
+    background: #5CAC0E;
+    border-radius: 1.5rem;
+    text-decoration: none;
+  }
+  
+  #login-form-box-admin-login-button-wrapper-admin-login-button-text{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    line-height: 2.5rem;
+  }
+  
+  .footer{
+    padding: 1rem 0rem 1rem 0rem;
+    height: 5.75rem;
+    background: #5CAC0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media{
+    margin-bottom: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-social-media-instagram, .footer-social-media-facebook{
+    margin-right: 1rem;
+  }
+  
+  .footer-social-media-instagram img, .footer-social-media-facebook img, .footer-social-media-twitter img{
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  #footer-copyright-text{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 991px){
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+  
+    #cateringin-logo{
+      width: 7.3625rem;
+      height: 3.8rem;
+    }
+    
+    .header{
+      padding: 0.7125rem 0rem 0.7125rem 0.7125rem;
+    }
+    
+    .login-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #login-form-title{
+      color: #5CAC0E;
+      margin-top: 1.9rem;
+      font-size: 1.9rem;
+      text-align: center;
+      margin-bottom: 0rem;
+      height: 2.375rem;
+    }
+    
+    .login-form-box{
+      margin-top: 0.95rem;
+      width: 20.425rem;
+      height: 16.15rem;
+      background: #ddffcb;
+      border-radius: 1.425rem;
+      margin-bottom: 2.85rem;
+    }
+    
+    #login-form-box-username{
+      margin: 1.425rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #login-form-box-password{
+      margin: 0.95rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #login-form-box-username-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem;
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    #login-form-box-password-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem;
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    .login-form-box-admin-login-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .login-form-box-admin-login-button-wrapper-admin-login-button{
+      margin: 1.425rem 0rem 0rem 0rem;
+      width: 16.625rem;
+      height: 2.375rem;
+      background: #5CAC0E;
+      border-radius: 1.425rem;
+      text-decoration: none;
+    }
+    
+    #login-form-box-admin-login-button-wrapper-user-login-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.95rem;
+      margin-bottom: 0rem;
+      line-height: 2.375rem;
+    }
+    
+    .footer{
+      padding: 0.95rem 0rem 0.95rem 0rem;
+      height: 5.4625rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.2375rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.95rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 2.138rem;
+      height: 2.138rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 767px){
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    #cateringin-logo{
+      width: 6.975rem;
+      height: 3.6rem;
+    }
+    
+    .header{
+      padding: 0.675rem 0rem 0.675rem 0.675rem;
+    }
+    
+    .login-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #login-form-title{
+      color: #5CAC0E;
+      margin-top: 1.8rem;
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 0rem;
+      height: 2.25rem;
+    }
+    
+    .login-form-box{
+      margin-top: 0.9rem;
+      width: 19.35rem;
+      height: 15.3rem;
+      background: #ddffcb;
+      border-radius: 1.35rem;
+      margin-bottom: 2.7rem;
+    }
+    
+    #login-form-box-username{
+      margin: 1.35rem 0rem 0rem 1.35rem;
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #login-form-box-password{
+      margin: 0.9rem 0rem 0rem 1.35rem;
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #login-form-box-username-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem;
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    #login-form-box-password-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem;
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    .login-form-box-admin-login-button-wrapper-admin-login-button{
+      margin: 1.35rem 0rem 0rem 0rem;
+      width: 15.75rem;
+      height: 2.25rem;
+      background: #5CAC0E;
+      border-radius: 1.35rem;
+      text-decoration: none;
+    }
+    
+    #login-form-box-admin-login-button-wrapper-admin-login-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.9rem;
+      margin-bottom: 0rem;
+      line-height: 2.25rem;
+    }
+    
+    .footer{
+      padding: 0.9rem 0rem 0.9rem 0rem;
+      height: 5.175rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.225rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.9rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 2.025rem;
+      height: 2.025rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 575px){
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    #cateringin-logo{
+      width: 6.5875rem;
+      height: 3.4rem;
+    }
+    
+    .header{
+      padding: 0.6375rem 0rem 0.6375rem 0.6375rem;
+    }
+    
+    .login-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #login-form-title{
+      color: #5CAC0E;
+      margin-top: 1.7rem;
+      font-size: 1.7rem;
+      text-align: center;
+      margin-bottom: 0rem;
+      height: 2.125rem;
+    }
+    
+    .login-form-box{
+      margin-top: 0.85rem;
+      width: 18.275rem;
+      height: 14.45rem;
+      background: #ddffcb;
+      border-radius: 1.275rem;
+      margin-bottom: 2.55rem;
+    }
+    
+    #login-form-box-username{
+      margin: 1.275rem 0rem 0rem 1.275rem;
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #login-form-box-password{
+      margin: 0.85rem 0rem 0rem 1.275rem;
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #login-form-box-username-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem;
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    #login-form-box-password-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem;
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    .login-form-box-admin-login-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .login-form-box-admin-login-button-wrapper-admin-login-button{
+      margin: 1.275rem 0rem 0rem 0rem;
+      width: 14.875rem;
+      height: 2.125rem;
+      background: #5CAC0E;
+      border-radius: 1.275rem;
+      text-decoration: none;
+    }
+    
+    #login-form-box-admin-login-button-wrapper-admin-login-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.85rem;
+      margin-bottom: 0rem;
+      line-height: 2.125rem;
+    }
+    
+    .footer{
+      padding: 0.85rem 0rem 0.85rem 0rem;
+      height: 4.8875rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.2125rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.85rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 1.9125rem;
+      height: 1.9125rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  }
+  
+  

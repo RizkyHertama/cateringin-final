@@ -1,0 +1,785 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+#header{
+  padding: 0.75rem 0rem 0.75rem 0rem;
+}
+
+#cateringin-logo-wrapper{
+  padding: 0rem;
+  margin: 0rem;
+}
+
+#nav-item-link{
+  color: black;
+  font-size: 1rem;
+}
+
+#nav-item-link:hover{
+  color: #5CAC0E;
+}
+
+#home-menu{
+  margin-right: 2.5rem;
+}
+
+.wrapper{
+  margin: 2rem 0rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper-heading{
+  font-size: 2rem;
+  color: #5CAC0E;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+#wrapper-sub-heading{
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: 1.25rem;
+  text-align: left;
+  height: 1.5rem;
+}
+
+.wrapper-one{
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  color: #5CAC0E;
+  text-align: left;
+}
+
+#wrapper-one-catering-period, #wrapper-one-total-price,
+#wrapper-one-food-day-one, #wrapper-one-food-day-two,
+#wrapper-one-food-day-three, #wrapper-one-food-day-four{
+  margin-bottom: 0.25rem;
+  height: 1.5rem;
+}
+
+#wrapper-one-food-day-five{
+  margin-bottom: 0rem;
+  height: 1.5rem;
+}
+
+ul{
+  margin-bottom: 0rem;
+}
+
+.wrapper-two{
+  margin-top: 1.5rem;
+}
+
+#wrapper-two-text{
+  font-size: 1.125rem;
+  color: black;
+  height: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+.wrapper-two-order-history-data-box{
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin-top: 0.75rem;
+  width: 21.5rem;
+  height: 24rem;
+  background: #ddffcb;
+  border-radius: 1.5rem;
+}
+
+#wrapper-two-order-history-data-box-name{
+  color: black;
+  font-size: 1rem;
+  height: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+#wrapper-two-order-history-data-box-delivery-address{
+  margin: 1rem 0rem 0rem 0rem;
+  color: black;
+  font-size: 1rem;
+  height: 1.25rem;
+}
+
+#wrapper-two-order-history-data-box-phone-number{
+  margin: 1rem 0rem 0rem 0rem;
+  color: black;
+  font-size: 1rem;
+  height: 1.25rem;
+}
+
+#wrapper-two-order-history-data-box-notes{
+  margin: 1rem 0rem 0rem 0rem;
+  color: black;
+  font-size: 1rem;
+  height: 1.25rem;
+}
+
+#wrapper-two-order-history-data-box-name-input-field{
+  width: 18.5rem;
+  height: 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+#wrapper-two-order-history-data-box-delivery-address-input-field{
+  margin-top: 0.75rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+#wrapper-two-order-history-data-box-phone-number-input-field{
+  margin-top: 0.75rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+#wrapper-two-order-history-data-box-notes-input-field{
+  margin-top: 0.75rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+}
+
+.footer{
+  padding: 1rem 0rem 1rem 0rem;
+  height: 5.75rem;
+  width: 100%;
+  background: #5CAC0E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social-media{
+  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-social-media-instagram, .footer-social-media-facebook{
+  margin-right: 1rem;
+}
+
+.footer-social-media-instagram img, .footer-social-media-facebook img, .footer-social-media-twitter img{
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+#footer-copyright-text{
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px){ */
+  #header{
+    padding: 0.7125rem 0rem 0.7125rem 0rem;
+  }
+  
+  #cateringin-logo-wrapper{
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  #cateringin-logo-wrapper img{
+    width: 7.363rem;
+    height: 3.8rem;
+  }
+  
+  #nav-item-link{
+    color: black;
+    font-size: 0.95rem;
+  }
+  
+  #home-menu{
+    margin-right: 0rem;
+  }
+
+  #burger-icon{
+    background-color: #5CAC0E;
+  }
+  
+  .wrapper{
+    margin: 1.9rem 0rem 2.85rem 2.85rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #wrapper-heading{
+    font-size: 1.9rem;
+    color: #5CAC0E;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  
+  #wrapper-sub-heading{
+    margin: 1.9rem 0rem 0rem 0rem;
+    font-size: 1.1875rem;
+    text-align: left;
+    height: 1.425rem;
+  }
+  
+  .wrapper-one{
+    margin-top: 1.425rem;
+    font-size: 1.06875rem;
+    color: #5CAC0E;
+    text-align: left;
+  }
+  
+  #wrapper-one-catering-period, #wrapper-one-total-price,
+  #wrapper-one-food-day-one, #wrapper-one-food-day-two,
+  #wrapper-one-food-day-three, #wrapper-one-food-day-four{
+    margin-bottom: 0.2375rem;
+    height: 1.425rem;
+  }
+  
+  #wrapper-one-food-day-five{
+    margin-bottom: 0rem;
+    height: 1.425rem;
+  }
+
+  ul{
+    margin-bottom: 0rem;
+  }
+  
+  .wrapper-two{
+    margin-top: 1.425rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #wrapper-two-text{
+    font-size: 1.06875rem;
+    color: black;
+    height: 1.425rem;
+    margin-bottom: 0rem;
+  }
+  
+  .wrapper-two-order-history-data-box{
+    padding: 1.425rem 1.425rem 1.425rem 1.425rem;
+    margin-top: 0.7125rem;
+    width: 20.425rem;
+    height: 22.8rem;
+    background: #ddffcb;
+    border-radius: 1.425rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name{
+    color: black;
+    font-size: 0.95rem;
+    height: 1.1875rem;
+    margin-bottom: 0.7125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address{
+    margin: 0.95rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.95rem;
+    height: 1.1875rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number{
+    margin: 0.95rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.95rem;
+    height: 1.1875rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes{
+    margin: 0.95rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.95rem;
+    height: 1.1875rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name-input-field{
+    width: 17.575rem;
+    height: 2.375rem;
+    border: none;
+    background: white;
+    border-radius: 1.425rem;
+    font-size: 0.95rem;
+    padding: 0rem 0.7125rem 0rem 0.7125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address-input-field{
+    margin-top: 0.7125rem;
+    width: 17.575rem;
+    height: 2.375rem;
+    border: none;
+    background: white;
+    border-radius: 1.425rem;
+    font-size: 0.95rem;
+    padding: 0rem 0.7125rem 0rem 0.7125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number-input-field{
+    margin-top: 0.7125rem;
+    width: 17.575rem;
+    height: 2.375rem;
+    border: none;
+    background: white;
+    border-radius: 1.425rem;
+    font-size: 0.95rem;
+    padding: 0rem 0.7125rem 0rem 0.7125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes-input-field{
+    margin-top: 0.7125rem;
+    width: 17.575rem;
+    height: 2.375rem;
+    border: none;
+    background: white;
+    border-radius: 1.425rem;
+    font-size: 0.95rem;
+    padding: 0rem 0.7125rem 0rem 0.7125rem;
+  }
+  
+  .footer{
+    padding: 0.95rem 0rem 0.95rem 0rem;
+    height: 5.4625rem;
+    background: #5CAC0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media{
+    margin-bottom: 0.2375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #footer-social-media-instagram, #footer-social-media-facebook{
+    margin-right: 0.95rem;
+  }
+
+  #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+    width: 2.138rem;
+    height: 2.138rem;
+  }
+  
+  #footer-copyright-text{
+    color: white;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  
+}
+
+@media only screen and (max-width: 767px){
+  #header{
+    padding: 0.675rem 0rem 0.675rem 0rem;
+  }
+  
+  #cateringin-logo-wrapper{
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  #cateringin-logo-wrapper img{
+    width: 6.975rem;
+    height: 3.6rem;
+  }
+
+  #nav-item-link{
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  #home-menu{
+    margin-right: 0rem;
+  }
+
+  #burger-icon{
+    background-color: #5CAC0E;
+  }
+  
+  .wrapper{
+    margin: 1.8rem 0rem 2.7rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #wrapper-heading{
+    font-size: 1.8rem;
+    color: #5CAC0E;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  
+  #wrapper-sub-heading{
+    margin: 1.8rem 0rem 0rem 0rem;
+    font-size: 1.125rem;
+    text-align: left;
+    height: 1.35rem;
+  }
+
+  .wrapper-one{
+    margin-top: 1.35rem;
+    font-size: 1.0125rem;
+    color: #5CAC0E;
+    text-align: left;
+  }
+  
+  #wrapper-one-catering-period, #wrapper-one-total-price,
+  #wrapper-one-food-day-one, #wrapper-one-food-day-two,
+  #wrapper-one-food-day-three, #wrapper-one-food-day-four{
+    margin-bottom: 0.225rem;
+    height: 1.35rem;
+  }
+  
+  #wrapper-one-food-day-five{
+    margin-bottom: 0rem;
+    height: 1.35rem;
+  }
+
+  ul{
+    margin-bottom: 0rem;
+  }
+
+  .wrapper-two{
+    margin-top: 1.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #wrapper-two-text{
+    font-size: 1.0125rem;
+    color: black;
+    height: 1.35rem;
+    margin-bottom: 0rem;
+  }
+  
+  .wrapper-two-order-history-data-box{
+    padding: 1.35rem 1.35rem 1.35rem 1.35rem;
+    margin-top: 0.675rem;
+    width: 19.35rem;
+    height: 21.6rem;
+    background: #ddffcb;
+    border-radius: 1.35rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name{
+    color: black;
+    font-size: 0.9rem;
+    height: 1.125rem;
+    margin-bottom: 0.675rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address{
+    margin: 0.9rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.9rem;
+    height: 1.125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number{
+    margin: 0.9rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.9rem;
+    height: 1.125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes{
+    margin: 0.9rem 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.9rem;
+    height: 1.125rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name-input-field{
+    width: 16.65rem;
+    height: 2.25rem;
+    border: none;
+    background: white;
+    border-radius: 1.35rem;
+    font-size: 0.9rem;
+    padding: 0rem 0.675rem 0rem 0.675rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address-input-field{
+    margin-top: 0.675rem;
+    width: 16.65rem;
+    height: 2.25rem;
+    border: none;
+    background: white;
+    border-radius: 1.35rem;
+    font-size: 0.9rem;
+    padding: 0rem 0.675rem 0rem 0.675rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number-input-field{
+    margin-top: 0.7125rem;
+    width: 16.65rem;
+    height: 2.25rem;
+    border: none;
+    background: white;
+    border-radius: 1.35rem;
+    font-size: 0.9rem;
+    padding: 0rem 0.675rem 0rem 0.675rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes-input-field{
+    margin-top: 0.7125rem;
+    width: 16.65rem;
+    height: 2.25rem;
+    border: none;
+    background: white;
+    border-radius: 1.35rem;
+    font-size: 0.9rem;
+    padding: 0rem 0.675rem 0rem 0.675rem;
+  }
+
+  .footer{
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    height: 5.175rem;
+    background: #5CAC0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media{
+    margin-bottom: 0.225rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #footer-social-media-instagram, #footer-social-media-facebook{
+    margin-right: 0.9rem;
+  }
+
+  #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+    width: 2.025rem;
+    height: 2.025rem;
+  }
+  
+  #footer-copyright-text{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  #header{
+    padding: 0.6375rem 0rem 0.6375rem 0rem;
+    width: 100%;
+  }
+  
+  #cateringin-logo-wrapper{
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  #cateringin-logo-wrapper img{
+    width: 6.5875rem;
+    height: 3.4rem;
+  }
+
+  #nav-item-link{
+    color: black;
+    font-size: 0.85rem;
+  }
+  
+  #home-menu{
+    margin-right: 0rem;
+  }
+
+  #burger-icon{
+    background-color: #5CAC0E;
+  }
+  
+  .wrapper{
+    margin: 1.4rem 0rem 2.55rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #wrapper-heading{
+    font-size: 1.7rem;
+    color: #5CAC0E;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  
+  #wrapper-sub-heading{
+    margin: 1.7rem 0rem 0rem 0rem;
+    font-size: 1.0625rem;
+    text-align: left;
+    height: 1.275rem;
+  }
+
+  .wrapper-one{
+    margin-top: 1.275rem;
+    font-size: 0.95625rem;
+    color: #5CAC0E;
+    text-align: left;
+  }
+  
+  #wrapper-one-catering-period, #wrapper-one-total-price,
+  #wrapper-one-food-day-one, #wrapper-one-food-day-two,
+  #wrapper-one-food-day-three, #wrapper-one-food-day-four{
+    margin-bottom: 0.2125rem;
+    height: 1.275rem;
+  }
+  
+  #wrapper-one-food-day-five{
+    margin-bottom: 0rem;
+    height: 1.275rem;
+  }
+
+  ul{
+    margin-bottom: 0rem;
+  }
+
+  .wrapper-two{
+    margin-top: 1.275rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #wrapper-two-text{
+    font-size: 0.95625rem;
+    color: black;
+    height: 1.275rem;
+    margin-bottom: 0rem;
+  }
+  
+  .wrapper-two-order-history-data-box{
+    padding: 1.275rem 1.275rem 1.275rem 1.275rem;
+    margin-top: 0.6375rem;
+    width: 18.275rem;
+    height: 20.4rem;
+    background: #ddffcb;
+    border-radius: 1.275rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name{
+    color: black;
+    font-size: 0.85rem;
+    height: 1.0625rem;
+    margin-bottom: 0.6375rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address{
+    margin: 0.85 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.85rem;
+    height: 1.0625rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number{
+    margin: 0.85 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.85rem;
+    height: 1.0625rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes{
+    margin: 0.85 0rem 0rem 0rem;
+    color: black;
+    font-size: 0.85rem;
+    height: 1.0625rem;
+  }
+  
+  #wrapper-two-order-history-data-box-name-input-field{
+    width: 15.725rem;
+    height: 2.125rem;
+    border: none;
+    background: white;
+    border-radius: 1.275rem;
+    font-size: 0.85rem;
+    padding: 0rem 0.6375rem 0rem 0.6375rem;
+  }
+  
+  #wrapper-two-order-history-data-box-delivery-address-input-field{
+    margin-top: 0.6375rem;
+    width: 15.725rem;
+    height: 2.125rem;
+    border: none;
+    background: white;
+    border-radius: 1.275rem;
+    font-size: 0.85rem;
+    padding: 0rem 0.6375rem 0rem 0.6375rem;
+  }
+  
+  #wrapper-two-order-history-data-box-phone-number-input-field{
+    margin-top: 0.6375rem;
+    width: 15.725rem;
+    height: 2.125rem;
+    border: none;
+    background: white;
+    border-radius: 1.275rem;
+    font-size: 0.85rem;
+    padding: 0rem 0.6375rem 0rem 0.6375rem;
+  }
+  
+  #wrapper-two-order-history-data-box-notes-input-field{
+    margin-top: 0.6375rem;
+    width: 15.725rem;
+    height: 2.125rem;
+    border: none;
+    background: white;
+    border-radius: 1.275rem;
+    font-size: 0.85rem;
+    padding: 0rem 0.6375rem 0rem 0.6375rem;
+  }
+
+  .footer{
+    padding: 0.85rem 0rem 0.85rem 0rem;
+    height: 4.8875rem;
+    background: #5CAC0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media{
+    margin-bottom: 0.2125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #footer-social-media-instagram, #footer-social-media-facebook{
+    margin-right: 0.85rem;
+  }
+
+  #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+    width: 1.9125rem;
+    height: 1.9125rem;
+  }
+  
+  #footer-copyright-text{
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+} 
+
