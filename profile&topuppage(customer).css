@@ -1,0 +1,1169 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #header{
+    padding: 0.75rem 0rem 0.75rem 0rem;
+  }
+  
+  #cateringin-logo-wrapper{
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  #nav-item-link{
+    color: black;
+    font-size: 1rem;
+  }
+  
+  #nav-item-link:hover{
+    color: #5CAC0E;
+  }
+  
+  #home-menu, #order-menu{
+    margin-right: 2.5rem;
+  }
+  
+  .wrapper{
+    margin: 2rem 0rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .user-profile-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #user-profile-form-title{
+    color: #5CAC0E;
+    font-size: 2rem;
+    text-align: center;
+    height: 2.5rem;
+  }
+  
+  .user-profile-form-box{
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 28rem;
+    background: #ddffcb;
+    border-radius: 1.5rem;
+  }
+  
+  #user-profile-form-box-name{
+    margin: 1.5rem 0rem 0rem 1.5rem; 
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-profile-form-box-address{
+    margin: 1rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-profile-form-box-telephone-number{
+    margin: 1rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-profile-form-box-email{
+    margin: 1rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-profile-form-box-name-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  #user-profile-form-box-address-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  #user-profile-form-box-telephone-number-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  #user-profile-form-box-email-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+
+  .user-profile-form-box-user-profile-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .user-profile-form-box-user-user-profile-button-wrapper-user-profile-button{
+    margin: 1.5rem 0rem 0rem 0rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    background: #5CAC0E;
+    border-radius: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .user-profile-form-box-user-profile-button-wrapper-user-profile-button-text{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    line-height: 2.5rem;
+  }
+  
+  .user-top-up-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #user-top-up-form-title{
+    color: #5CAC0E;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 2rem;
+    text-align: center;
+    height: 2.5rem;
+  }
+  
+  .user-top-up-form-box{
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 19.25rem;
+    background: #ddffcb;
+    border-radius: 1.5rem;
+  }
+  
+  #user-top-up-form-box-your-balance-now{
+    margin: 1.5rem 0rem 0rem 1.5rem;
+    height: 1.25rem;
+  }
+  
+  #user-top-up-form-box-gopay-phone-number{
+    margin: 1rem 0rem 0rem 1.5rem; 
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-top-up-form-box-balance-amount{
+    margin: 1rem 0rem 0rem 1.5rem;
+    color: black;
+    font-size: 1rem;
+    height: 1.25rem;
+  }
+  
+  #user-top-up-form-box-gopay-phone-number-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  #user-top-up-form-box-balance-amount-input-field{
+    margin: 0.75rem 0rem 0rem 1.5rem; 
+    width: 18.5rem;
+    height: 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+  }
+  
+  .user-top-up-form-box-user-top-up-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button{
+    margin: 1.5rem 0rem 0rem 0rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    background: #5CAC0E;
+    border-radius: 1.5rem;
+    text-decoration: none;
+  }
+  
+  #user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button-text{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    line-height: 2.5rem;
+  }
+  
+  .log-out-button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .log-out-button-wrapper-log-out-button{
+    margin: 3rem 0rem 0rem 0rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    background: #5CAC0E;
+    border-radius: 1.5rem;
+    text-decoration: none;
+  }
+  
+  #log-out-button-wrapper-log-out-button-text{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    line-height: 2.5rem;
+  }
+  
+  .footer{
+    padding: 1rem 0rem 1rem 0rem;
+    height: 5.75rem;
+    background: #5CAC0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-social-media{
+    margin-bottom: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer-social-media-instagram, .footer-social-media-facebook{
+    margin-right: 1rem;
+  }
+  
+  .footer-social-media-instagram img, .footer-social-media-facebook img, .footer-social-media-twitter img{
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  #footer-copyright-text{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 991px){
+    #header{
+      padding: 0.7125rem 0rem 0.7125rem 0rem;
+    }
+    
+    #cateringin-logo-wrapper{
+      padding: 0rem;
+      margin: 0rem;
+    }
+  
+    #cateringin-logo-wrapper img{
+      width: 7.363rem;
+      height: 3.8rem;
+    }
+  
+    #nav-item-link{
+      color: black;
+      font-size: 0.95rem;
+    }
+  
+    #home-menu, #order-menu{
+      margin-right: 0rem;
+    }
+    
+    #burger-icon{
+      background-color: #5CAC0E;
+    } 
+    
+    .wrapper{
+      margin: 1.8rem 0rem 2.85rem 0rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .user-profile-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-profile-form-title{
+      color: #5CAC0E;
+      font-size: 1.9rem;
+      text-align: center;
+      height: 2.375rem;
+    }
+    
+    .user-profile-form-box{
+      margin-top: 0.95rem;
+      width: 20.425rem;
+      height: 26.6rem;
+      background: #ddffcb;
+      border-radius: 1.425rem;
+    }
+    
+    #user-profile-form-box-name{
+      margin: 1.425rem 0rem 0rem 1.425rem; 
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-profile-form-box-address{
+      margin: 0.95rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-profile-form-box-telephone-number{
+      margin: 0.95rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-profile-form-box-email{
+      margin: 0.95rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-profile-form-box-name-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    #user-profile-form-box-address-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    #user-profile-form-box-telephone-number-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    #user-profile-form-box-email-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+
+    .user-profile-form-box-user-profile-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-profile-form-box-user-user-profile-button-wrapper-user-profile-button{
+      margin: 1.425rem 0rem 0rem 0rem;
+      width: 7.125rem;
+      height: 2.375rem;
+      background: #5CAC0E;
+      border-radius: 1.425rem;
+      text-decoration: none;
+    }
+    
+    .user-profile-form-box-user-profile-button-wrapper-user-profile-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.95rem;
+      margin-bottom: 0rem;
+      line-height: 2.375rem;
+    }
+    
+    .user-top-up-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-top-up-form-title{
+      color: #5CAC0E;
+      margin: 2.85rem 0rem 0rem 0rem;
+      font-size: 1.9rem;
+      text-align: center;
+      height: 2.375rem;
+    }
+    
+    .user-top-up-form-box{
+      margin-top: 0.95rem;
+      width: 20.425rem;
+      height: 18.2875rem;
+      background: #ddffcb;
+      border-radius: 1.425rem;
+    }
+    
+    #user-top-up-form-box-your-balance-now{
+      font-size: 0.95rem;
+      margin: 1.425rem 0rem 0rem 1.425rem;
+      height: 1.1875rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number{
+      margin: 0.95rem 0rem 0rem 1.425rem; 
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-top-up-form-box-balance-amount{
+      margin: 0.95rem 0rem 0rem 1.425rem;
+      color: black;
+      font-size: 0.95rem;
+      height: 1.1875rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    #user-top-up-form-box-balance-amount-input-field{
+      margin: 0.7125rem 0rem 0rem 1.425rem; 
+      width: 17.575rem;
+      height: 2.375rem;
+      border: none;
+      background: white;
+      border-radius: 1.425rem;
+      font-size: 0.95rem;
+      padding: 0rem 0.7125rem 0rem 0.7125rem;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button{
+      margin: 1.425rem 0rem 0rem 0rem;
+      width: 7.125rem;
+      height: 2.375rem;
+      background: #5CAC0E;
+      border-radius: 1.425rem;
+      text-decoration: none;
+    }
+    
+    #user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.95rem;
+      margin-bottom: 0rem;
+      line-height: 2.375rem;
+    }
+    
+    .log-out-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .log-out-button-wrapper-log-out-button{
+      margin: 2.85rem 0rem 0rem 0rem;
+      width: 7.125rem;
+      height: 2.375rem;
+      background: #5CAC0E;
+      border-radius: 1.425rem;
+      text-decoration: none;
+    }
+    
+    #log-out-button-wrapper-log-out-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.95rem;
+      margin-bottom: 0rem;
+      line-height: 2.375rem;
+    }
+  
+    .footer{
+      padding: 0.95rem 0rem 0.95rem 0rem;
+      height: 5.4625rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.2375rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.95rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 2.138rem;
+      height: 2.138rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 767px){
+    #header{
+      padding: 0.675rem 0rem 0.675rem 0rem;
+    }
+    
+    #cateringin-logo-wrapper{
+      padding: 0rem;
+      margin: 0rem;
+    }
+  
+    #cateringin-logo-wrapper img{
+      width: 6.975rem;
+      height: 3.6rem;
+    }
+  
+    #nav-item-link{
+      color: black;
+      font-size: 0.9rem;
+    }
+  
+    #home-menu, #order-menu{
+      margin-right: 0rem;
+    }
+    
+    #burger-icon{
+      background-color: #5CAC0E;
+    }
+    
+    .wrapper{
+      margin: 1.6rem 0rem 2.7rem 0rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .user-profile-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-profile-form-title{
+      color: #5CAC0E;
+      font-size: 1.8rem;
+      text-align: center;
+      height: 2.25rem;
+    }
+    
+    .user-profile-form-box{
+      margin-top: 0.9rem;
+      width: 19.35rem;
+      height: 25.2rem;
+      background: #ddffcb;
+      border-radius: 1.35rem;
+    }
+    
+    #user-profile-form-box-name{
+      margin: 1.35rem 0rem 0rem 1.35rem; 
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #user-profile-form-box-address{
+      margin: 0.9rem 0rem 0rem 1.35rem;
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #user-profile-form-box-telephone-number{
+      margin: 0.9rem 0rem 0rem 1.35rem;
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #user-profile-form-box-email{
+      margin: 0.9rem 0rem 0rem 1.35rem;
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+  
+    #user-profile-form-box-name-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    #user-profile-form-box-address-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    #user-profile-form-box-telephone-number-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    #user-profile-form-box-email-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+
+    .user-profile-form-box-user-profile-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-profile-form-box-user-user-profile-button-wrapper-user-profile-button{
+      margin: 1.35rem 0rem 0rem 0rem;
+      width: 6.75rem;
+      height: 2.25rem;
+      background: #5CAC0E;
+      border-radius: 1.35rem;
+      text-decoration: none;
+    }
+    
+    .user-profile-form-box-user-profile-button-wrapper-user-profile-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.9rem;
+      margin-bottom: 0rem;
+      line-height: 2.25rem;
+    }
+    
+    .user-top-up-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-top-up-form-title{
+      color: #5CAC0E;
+      margin: 2.7rem 0rem 0rem 0rem;
+      font-size: 1.8rem;
+      text-align: center;
+      height: 2.25rem;
+    }
+    
+    .user-top-up-form-box{
+      margin-top: 0.9rem;
+      width: 19.35rem;
+      height: 17.325rem;
+      background: #ddffcb;
+      border-radius: 1.35rem;
+    }
+    
+    #user-top-up-form-box-your-balance-now{
+      margin: 1.35rem 0rem 0rem 1.35rem;
+      height: 1.125rem;
+      font-size: 0.9rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number{
+      margin: 0.9rem 0rem 0rem 1.35rem; 
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #user-top-up-form-box-balance-amount{
+      margin: 0.9rem 0rem 0rem 1.35rem; 
+      color: black;
+      font-size: 0.9rem;
+      height: 1.125rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    #user-top-up-form-box-balance-amount-input-field{
+      margin: 0.675rem 0rem 0rem 1.35rem; 
+      width: 16.65rem;
+      height: 2.25rem;
+      border: none;
+      background: white;
+      border-radius: 1.35rem;
+      font-size: 0.9rem;
+      padding: 0rem 0.675rem 0rem 0.675rem;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button{
+      margin: 1.35rem 0rem 0rem 0rem;
+      width: 6.75rem;
+      height: 2.25rem;
+      background: #5CAC0E;
+      border-radius: 1.35rem;
+      text-decoration: none;
+    }
+    
+    #user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.9rem;
+      margin-bottom: 0rem;
+      line-height: 2.25rem;
+    }
+    
+    .log-out-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .log-out-button-wrapper-log-out-button{
+      margin: 2.7rem 0rem 0rem 0rem;
+      width: 6.75rem;
+      height: 2.25rem;
+      background: #5CAC0E;
+      border-radius: 1.35rem;
+      text-decoration: none;
+    }
+    
+    #log-out-button-wrapper-log-out-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.9rem;
+      margin-bottom: 0rem;
+      line-height: 2.25rem;
+    }
+  
+    .footer{
+      padding: 0.9rem 0rem 0.9rem 0rem;
+      height: 5.175rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.225rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.9rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 2.025rem;
+      height: 2.025rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 575px){
+    #header{
+      padding: 0.6375rem 0rem 0.6375rem 0rem;
+    }
+    
+    #cateringin-logo-wrapper{
+      padding: 0rem;
+      margin: 0rem;
+    }
+  
+    #cateringin-logo-wrapper img{
+      width: 6.5875rem;
+      height: 3.4rem;
+    }
+  
+    #nav-item-link{
+      color: black;
+      font-size: 0.85rem;
+    }
+  
+    #home-menu, #order-menu{
+      margin-right: 0rem;
+    }
+    
+    #burger-icon{
+      background-color: #5CAC0E;
+    }
+    
+    .wrapper{
+      margin: 1.4rem 0rem 2.55rem 0rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .user-profile-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-profile-form-title{
+      color: #5CAC0E;
+      font-size: 1.7rem;
+      text-align: center;
+      height: 2.125rem;
+    }
+    
+    .user-profile-form-box{
+      margin-top: 0.85rem;
+      width: 18.275rem;
+      height: 23.8rem;
+      background: #ddffcb;
+      border-radius: 1.275rem;
+    }
+    
+    #user-profile-form-box-name{
+      margin: 1.275rem 0rem 0rem 1.275rem; 
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-profile-form-box-address{
+      margin: 0.85rem 0rem 0rem 1.275rem;
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-profile-form-box-telephone-number{
+      margin: 0.85rem 0rem 0rem 1.275rem;
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-profile-form-box-email{
+      margin: 0.85rem 0rem 0rem 1.275rem;
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-profile-form-box-name-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    #user-profile-form-box-address-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    #user-profile-form-box-telephone-number-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    #user-profile-form-box-email-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+
+    .user-profile-form-box-user-profile-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-profile-form-box-user-user-profile-button-wrapper-user-profile-button{
+      margin: 1.275rem 0rem 0rem 0rem;
+      width: 6.375rem;
+      height: 2.125rem;
+      background: #5CAC0E;
+      border-radius: 1.275rem;
+      text-decoration: none;
+    }
+    
+    .user-profile-form-box-user-profile-button-wrapper-user-profile-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.85rem;
+      margin-bottom: 0rem;
+      line-height: 2.125rem;
+    }
+    
+    .user-top-up-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #user-top-up-form-title{
+      color: #5CAC0E;
+      margin: 2.55rem 0rem 0rem 0rem;
+      font-size: 1.7rem;
+      text-align: center;
+      height: 2.125rem;
+    }
+    
+    .user-top-up-form-box{
+      margin-top: 0.85rem;
+      width: 18.275rem;
+      height: 16.3625rem;
+      background: #ddffcb;
+      border-radius: 1.275rem;
+    }
+    
+    #user-top-up-form-box-your-balance-now{
+      margin: 1.275rem 0rem 0rem 1.275rem;
+      height: 1.0625rem;
+      font-size: 0.85rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number{
+      margin: 0.85rem 0rem 0rem 1.275rem; 
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-top-up-form-box-balance-amount{
+      margin: 0.85rem 0rem 0rem 1.275rem; 
+      color: black;
+      font-size: 0.85rem;
+      height: 1.0625rem;
+    }
+    
+    #user-top-up-form-box-gopay-phone-number-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    #user-top-up-form-box-balance-amount-input-field{
+      margin: 0.6375rem 0rem 0rem 1.275rem; 
+      width: 15.725rem;
+      height: 2.125rem;
+      border: none;
+      background: white;
+      border-radius: 1.275rem;
+      font-size: 0.85rem;
+      padding: 0rem 0.6375rem 0rem 0.6375rem;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button{
+      margin: 1.275rem 0rem 0rem 0rem;
+      width: 6.375rem;
+      height: 2.125rem;
+      background: #5CAC0E;
+      border-radius: 1.275rem;
+      text-decoration: none;
+    }
+    
+    #user-top-up-form-box-user-top-up-button-wrapper-user-top-up-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.85rem;
+      margin-bottom: 0rem;
+      line-height: 2.125rem;
+    }
+    
+    .log-out-button-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .log-out-button-wrapper-log-out-button{
+      margin: 2.55rem 0rem 0rem 0rem;
+      width: 6.375rem;
+      height: 2.125rem;
+      background: #5CAC0E;
+      border-radius: 1.275rem;
+      text-decoration: none;
+    }
+    
+    #log-out-button-wrapper-log-out-button-text{
+      text-align: center;
+      color: white;
+      font-size: 0.85rem;
+      margin-bottom: 0rem;
+      line-height: 2.125rem;
+    }
+  
+    .footer{
+      padding: 0.85rem 0rem 0.85rem 0rem;
+      height: 4.8875rem;
+      background: #5CAC0E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-social-media{
+      margin-bottom: 0.2125rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #footer-social-media-instagram, #footer-social-media-facebook{
+      margin-right: 0.85rem;
+    }
+  
+    #footer-social-media-instagram img, #footer-social-media-facebook img, #footer-social-media-twitter img{
+      width: 1.9125rem;
+      height: 1.9125rem;
+    }
+    
+    #footer-copyright-text{
+      color: white;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  }
+  
+  
