@@ -1,3 +1,10 @@
 # cateringin-final
 Software engineering Project
-Kelompok 5 Software engineering - LJ01  2440106030 - Brian Steve 2440011356 - Juanico Wijaya Kusuma 2440062483 - Rizky Hertama
+<br>
+Kelompok 5 Software engineering - LJ01  
+<br>
+2440106030 - Brian Steve 
+<br>
+2440011356 - Juanico Wijaya Kusuma 
+<br>
+2440062483 - Rizky Hertama
